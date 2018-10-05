@@ -1,1 +1,2 @@
 # example-avro
+example-avro
