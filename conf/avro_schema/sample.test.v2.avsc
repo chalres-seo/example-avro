@@ -1,0 +1,11 @@
+{
+ "namespace": "sample",
+ "type": "record",
+ "name": "test",
+ "fields": [
+     {"name": "dateTime", "type": "string"},
+     {"name": "uid", "type": "string"},
+     {"name": "name", "type": "string"},
+     {"name": "email", "type": ["null", "string"], "default": null}
+ ]
+}
